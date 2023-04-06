@@ -19,7 +19,7 @@ header {
     border-color: black;
 }
 
-img { 
+.Logo { 
     max-width: 250px;
     max-height: 250px;
 }
@@ -51,6 +51,94 @@ nav a {
 	font-size: 20px;
 }
 
-.topofthepage {
+main {
+    width: 100%;
+    height: 750px;
     background: url(./images/austin-distel-x1J0zj63ZjM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.topofthepage {
+    max-width: 25%;
+    margin-top: 0;
+    padding: 200px 50px 0 100px;
+    height: 550px;
+    color: white;
+    background-color: #060042ab;
+    justify-content: center;
+    position: absolute;
+}
+
+.topofthepage h2 {
+    padding-left: 25px;
+ font-family: Rough;    
+ font-size: 35px;
+}
+
+.topofthepage p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+  }
+
+  .destinations h2 {
+    text-align: center;
+    font-family: Rough;
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  .destinations p {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .destinations ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    text-align: center;
+    place-items: center;
+    padding: 40px 40px 40px 40px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+footer {
+    background-color: #060042;
+    color: white;
+    margin-bottom: -16px;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
 }
